@@ -1,0 +1,222 @@
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.ProductDetails{
+margin: 30px 0;
+
+}
+
+
+  
+ 
+ .left-shop {
+  /* border: 2px solid aqua; */
+  margin-top: 20px;
+}
+
+
+
+
+  .Div1{
+    display: flex;
+    justify-content: center;
+
+  }
+
+
+  .ImageDiv{
+    width: 100%;
+   
+  }
+  .special{
+    width: 100%;
+    height: 300px;
+   
+  }
+
+  .ImageDiv .Images{
+
+width: 100%;
+display: flex;
+align-items: center;
+  }
+
+  .Images .imageINBOX{
+   
+    width: 200px;
+  height: 170px;
+  margin: 10px;
+  }
+
+  .Images .imageINBOX img{
+width: 100%;
+height: 100%;
+  }
+  .priceDiv{
+      padding:10px;
+  background-color: #e7e7e75d;
+  margin-top: 25px;
+  }
+
+  .divaiaa .p{
+    color: #fff;
+    /* border: 1px solid red; */
+    background-color: #d31a22;
+   height: 30px;
+    margin-left: 10px;
+    font-size: 18px;
+    padding: 0px 10px;
+    text-align: "left";
+  }
+
+  .btns{
+    margin-top: 40px;
+  }
+  .btnAddCart , .btnBuy{
+    width: 140px;
+    height: 40px;
+border: none;
+  color: #fff;
+  font-size: 16px;
+  background-color: #d31a22;
+  }
+
+  .btnAddCart  .iconia{
+font-size: 14px;
+margin-right: 10px;
+  }
+
+  .btnAddCart:hover , .btnBuy:hover{
+    
+background-color: #222;
+color: #fff;
+transition: all 0.6s ease-in-out;
+  }
+  .btns{
+    display: flex;
+    align-items: center;
+  }
+  .btnBuy{
+    margin-left: 20px;
+  }
+
+
+.DetailContent{
+  height: 30px;
+  font-size: 18px;
+ margin-top: 25px;
+}
+
+.DetailContent h5:first-child {
+color: rgb(0, 33, 65);;
+font-weight: bold;
+
+}
+
+.DetailContent h5:last-child {
+color: #000;
+margin-left: 10px;
+
+}
+   @media screen and (max-width: 740px) {
+  
+    .Div1{
+     margin-bottom: 30px;
+    }
+
+    .Images .imageINBOX{
+      height: 130px;
+      width: 180px;
+
+    }
+
+    .imageINBOX img{
+width: 100%;
+height: 100%;    
+}
+  }
+
+
+  .box{
+    width: 100%;
+  }
+
+.slide{
+
+  height: 400px;
+}
+
+.slide img{
+width: 100%;
+height: 100%;
+}
+
+.carousel .thumb.selected, .carousel .thumb:hover{
+  border: 3px solid #d31a22 !important;
+} 
+
+.thumbs-wrapper    .thumbs  .thumb {
+border: 1px solid  #e5e5e5;
+}
+
+.mycategories{
+  border: 2px solid #ddd;
+ width: 100%;
+ margin-top: 20px;
+}
+
+ .mycategories h1{
+font-size: 20px;
+text-align: left;
+padding: 15px 10px ;
+background-color: #f9f9f9 ;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-weight: 700;
+color: #000;
+}
+.DivImg{
+   margin-top:20px ;
+  }
+
+.DivImg img{
+
+width: 100%;
+}
+
+
+
+
+
+
+
+.mySliderr2  {
+  position: relative;
+}
+
+.mySliderr2:hover   .swiper-nav-btns button  {
+display: block;
+}
+
+
+
+
+
+
+ .swiper-nav-btns button:last-of-type ,  .swiper-nav-btns button:last-of-type {
+  left: 0px ;
+  bottom: 50%;
+  transform: translateY(50%);
+  
+}
+
+  .swiper-nav-btns button:first-of-type  ,   .swiper-nav-btns button:first-of-type {
+
+  right: 0px; 
+bottom: 50%;
+ transform: translateY(50%);
+ 
+   }
+ 

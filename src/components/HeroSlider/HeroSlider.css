@@ -1,0 +1,67 @@
+.slider-item {
+    outline: none;
+    position: relative;
+    height: 360px;
+}
+.slider-item img{
+    height: 100%;
+}
+.contentdiv{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 30px;
+}
+.contentdiv h2 , h5{
+    color: #ffff;
+}
+.contentdiv h5{
+    font-size: 25px;
+
+}
+.contentdiv h2{
+font-size: 35px;
+}
+.contentdiv button{
+width: 120px;
+height: 40px;
+color: #fff;
+border: none;
+background-color: #d31a22;
+border-radius: 20px;
+margin-top: 20px;
+}
+.slick-slider  img{
+width: 100%;
+}
+
+ .slider-content .slick-slider  .slick-dots {
+    position: absolute !important;
+    bottom: 20px !important ;
+
+}
+
+
+
+.slick-dots li  button:before{
+    font-size: 20px !important;
+}
+
+.slick-dots li.slick-active  button{
+}
+
+.slick-dots li.slick-active button:before{
+ 
+    color: #d31a22 !important;
+
+}
+
+@media screen and (max-width: 768px) {
+
+.slider-item{
+    height: 250px;
+}
+.slider-item .contentdiv h2 , h5{
+    font-size: 20px;
+}
+}

@@ -1,0 +1,199 @@
+
+.CartPage{
+  padding: 40px 0;
+}
+button {
+  border: none;
+}
+
+.tablee{
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+  
+  .tablee  tr{
+box-shadow: 0 3px 10px  rgb(0 0 0 / 0.2);
+  }
+  
+  
+   .tablee th , td{
+    padding: 18px;
+  
+  }
+  
+  
+  .tablee thead{
+box-shadow: 0 3px 10px #fff;
+    
+  
+  }
+
+
+
+  .PlusAndMiuns button{
+    width: 65px;
+    height: 40px;
+    background-color: #d31a22;
+    color: #fff;
+    border:1px solid #fff;
+  }
+
+
+  
+  .PlusAndMiuns button:hover{
+  
+    background-color: #d31a22;
+  color: #fff;
+  }
+  
+  .RomoveBtn{
+    height: 40px;
+    width: 120px;
+    color: #fff;
+    background-color: #d31a22;
+  }
+  
+  .SpetialTd{
+    display: flex;
+    align-items: center;
+  }
+
+  
+  @media only screen and (max-width :780px) {
+     .scrolaia{
+   
+    overflow-x: scroll;
+     }
+     .tablee th{
+     
+     width: 100%;
+      font-size: 11px;
+      font-weight: bold;
+     }
+  
+     .PlusAndMiuns{
+      display: flex;
+     }
+    
+    
+  }
+  .PageFinal .bttncarttt{
+  margin: 10px 0 ;
+ }
+  .spetial{
+    height: 120px;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+ padding: 0px 20px;
+box-shadow: 0 3px 10px  rgb(0 0 0 / 0.2);
+
+margin-bottom: 40px;
+
+  }
+
+
+
+ .Clearbtn{
+
+    border: 2px solid #d31a22;
+    width: 130px;
+    height: 40px;
+    background-color: transparent;
+    color: #d31a22;
+    font-size: 17px;
+    font-weight: 500;
+    margin-top: 20px;
+  
+ }
+ .Total{
+    margin-top: 20px;
+
+}
+
+.Total span{
+    display: flex;
+    align-items: start;
+    color: #d31a22;
+    font-weight: 400;
+}
+
+
+.speialH5{
+    color: #f5d30a;
+    font-weight: bold;
+}
+
+.Total button{
+border: none;
+width: 130px;
+height: 40px;
+color: #fff;
+background-color: #d31a22;
+margin-top: 10px;
+}
+
+@media screen and (max-width: 380px) {
+ 
+  
+.spetial{
+    display: block;
+    height: auto;
+    padding: 20px;
+}
+.Total{
+    margin-top: 20px;
+}
+}
+
+
+/* Empty Page */
+
+
+.PageFinal{
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.cartxy{
+
+  position: relative;
+  text-align: center;
+}
+.PageFinal .cartxy svg{
+  font-size: 150px;
+    line-height: 1.1;
+    color: #ebecee;
+} 
+.cartxy button{
+
+  letter-spacing: .03em;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 10px 40px;
+  background: #d31a22;
+  border-radius: 0;
+  color: #fff;
+position: absolute;
+left: 50%;
+transform: translatex(-50%);
+}
+.cartxy p{
+
+  font-size: 30px;
+  color: #d31a22;
+  font-weight: bold;
+}
+
+
+@media only screen and (max-width : 992px){
+  .CartPage{
+    padding-top: 130px;
+  }
+}

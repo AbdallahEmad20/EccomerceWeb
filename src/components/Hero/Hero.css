@@ -1,0 +1,91 @@
+
+.myHero {
+    padding-top: 30px;
+}
+
+.imagia{
+    position: relative;
+    overflow: hidden;
+}
+.imagia::after{
+content: '';
+    background-color: rgb(249, 249, 249 , 0.5);
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    opacity: 0;
+}
+
+
+
+
+
+.imagia:hover::after{
+  animation: flashing 0.7s;
+
+}
+
+@keyframes flashing {
+    0% , 40% {
+    opacity: 1;
+    }
+    
+    60%{
+      opacity: 0;
+      
+    }
+    100%{
+      opacity: 1;
+      width: 200%;
+      height: 200%;
+    }
+    }
+.TwoImages{
+    width: 100%;
+  margin-top: 10px;
+}
+
+.pic{
+    border: 1px solid #e5e5e5;
+    height: 160px;
+    text-align: center;
+    position: relative;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.pic img{
+    width: 80px;
+}
+.pic p{
+  margin-top: 20px;
+  position:  absolute;
+  bottom: 1px;
+  font-size: 14px;
+  font-weight: 400;
+left: 50%;
+transform: translateX(-50%);
+}
+
+@media screen and (max-width: 1200px) {
+
+.ProductsImages{
+margin-top: 20px;
+}
+}
+
+@media screen and (max-width: 576px) {
+
+.TwoImages .imagia{
+    margin-bottom: 20px;
+}
+}
+
+@media only screen and (max-width : 992px){
+  .myHero{
+    padding-top: 130px;
+  }
+}
